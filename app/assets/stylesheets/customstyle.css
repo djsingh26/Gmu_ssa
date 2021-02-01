@@ -1,0 +1,129 @@
+@import "bootstrap";
+
+.navbar {
+    background-color: cornflowerblue !important;
+    font-size: 20px
+}
+
+.read-more-btn{
+    width: 120px;
+    height: 37px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    /* font-family: Geneva, Verdana, sans-serif; */
+}
+
+.bd-callout-warning {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-left-color: #f0ad4e;
+    border-radius: .25rem;
+}
+
+.bd-callout-danger {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-left-color: #dc3545;
+    border-radius: .25rem;
+}
+
+.bd-callout-primary {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-left-color: #0d6efd;
+    border-radius: .25rem;
+}
+
+.bd-callout-success {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-left-color: #198754;
+    border-radius: .25rem;
+}
+
+/* .hr {
+    border: 15px solid;
+} */
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+/* .nav-item {
+    margin-left: 0px;
+} */
+
+.home-icon {
+    position: relative;
+    margin-top: 5px;
+}
+
+/* .colored-left-border {
+    border-left-color: cadetblue;
+    border-left-width: 5px;
+} */
+
+.h2 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 33px;
+}
+.h2:hover{
+    text-decoration: underline;
+}
+
+.gmussa{
+    font-weight: 400;
+}
+
+.mainHeader{
+    font-family:"Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    text-align: left;
+    color:cornflowerblue;
+
+
+}
+.inline{
+    display: inline-block;
+}
+
+.khanda{
+    float: right;
+
+}
+
+.card-body{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card{
+    margin-right: 20px;
+}
+
+.card-header{
+    background-color: cornflowerblue;
+}
+

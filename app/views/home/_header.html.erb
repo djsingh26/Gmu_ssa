@@ -1,0 +1,58 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3" style="color:blue;">
+  <div class="container-fluid">
+    <a class="navbar-brand gmussa" href="https://www2.gmu.edu/">
+        <%# <%= image_tag("masonlogo.png", :alt => "masonlog feed", width:"120px", height:"65px") %> 
+        GMU SSA
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <%# <li class="nav-item">
+          <i class="fa fa-home nav-link active home-icon"></i>          
+        </li>  %>
+
+        <li class="nav-item">
+          <%= link_to '',root_path, class:"fa fa-home nav-link active home-icon", style:"display: inline-block;"%>
+          <%= link_to 'Home', root_path, class:"nav-link active", style:"display: inline-block;"%>
+          <%# <a class="nav-link active" aria-current="page" href="#" >Home</a> %>
+        </li>
+       
+        <li class="nav-item">
+          <%= link_to 'Members', home_members_path, class:"nav-link active"%>
+          <%# <a class="nav-link" href="#">Members</a> %>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            History
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">SSA</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About Us", home_about_path, class:"nav-link"%>
+          <%# <a class="nav-link" href="#">About Us</a> %>
+        </li>
+
+        
+
+      </ul>
+      <form class="d-flex">
+        <a class="nav-link ml-auto" style="color: black;" href="#">Careers!</a>
+        
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
